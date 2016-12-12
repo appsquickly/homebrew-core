@@ -1,13 +1,13 @@
 class Jasper < Formula
   desc "Library for manipulating JPEG-2000 images"
   homepage "https://www.ece.uvic.ca/~frodo/jasper/"
-  url "https://github.com/mdadams/jasper/archive/version-2.0.4.tar.gz"
-  sha256 "659a17d9754a2c4786c20ce65bf26309892740e781a512c5da5720a66b372d74"
+  url "https://github.com/mdadams/jasper/archive/version-2.0.8.tar.gz"
+  sha256 "ebaca7b4bb2354c58f649c6d97d07f14292df31666a7cb29f2b4a066976535e4"
 
   bottle do
-    sha256 "e7e4544ff2d4a580190694f68ad554eb8d775333b9a6003ae88c047bb66287f0" => :sierra
-    sha256 "da795da61aaadbda342072c5e4c9e3c4f20cdfff89c84d662af4c003f30167b3" => :el_capitan
-    sha256 "d94a5b12e5536cd437700d5e7cd1de833783b7e7b46db0801247c8058d685d06" => :yosemite
+    sha256 "bc352da5126c3b91d0e301aae1fdbed5759e6de6dacced81d83043cc10c01a6e" => :sierra
+    sha256 "10e2f055bd0b28529ac74282feefab48af9c73cd64fefceabae7ee72c658bb8a" => :el_capitan
+    sha256 "f64455f21bf00a0663f10176466d83991f9b88deaf28a9a162f4d9a708d704ac" => :yosemite
   end
 
   option :universal
